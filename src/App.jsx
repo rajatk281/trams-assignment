@@ -17,7 +17,7 @@ const App = () => {
       <div className='relative'>
         <Newsletter />
         <Services />
-        <div className='absolute top-58 left-20 scale-92 rotate-3 z-[-1]'><svg width="1483" height="654" viewBox="0 0 1483 654" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className='absolute top-58 left-20 scale-92 rotate-3 z-[-10]'><svg width="1483" height="654" viewBox="0 0 1483 654" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g filter="url(#filter0_d_2_9)">
             <path d="M1488.65 134.467C1446.64 22.3688 1055.93 -89.3364 963 120.86C835.832 408.503 777.269 398.936 693.689 397.279C610.11 395.623 306.809 225.312 181.153 337.967C41.357 463.299 144.653 654.467 12.6534 618.728" stroke="#FF6D6D" stroke-width="5" />
           </g>

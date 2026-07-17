@@ -21,14 +21,14 @@ const Newsletter = () => {
                     </div>
                 </div>
                 <div className="relative w-1/2 ">
-                    <div className="absolute -top-12 left-55 w-90 h-90 rounded-full overflow-hidden ">
+                    <div className="absolute -top-42 left-55 w-90 h-90 rounded-full overflow-hidden ">
                         <img
                             src="/images/team-1.png"
                             alt="person"
                             className="w-full h-full object-cover"
                         />
                     </div>
-                    <div className="absolute left-130 z-[-1]">
+                    <div className="absolute -top-45 left-116 z-[-1]">
                         <svg width="200" height="200" viewBox="0 0 233 227" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M45.3254 -2.02656e-06L232.277 40.5018L186.952 226.343L4.78625e-05 185.841L45.3254 -2.02656e-06Z" fill="#FF7171" />
                         </svg>
