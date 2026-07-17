@@ -23,8 +23,8 @@ const ServiceRow = () => {
             <hr />
             {
                 serviceItems.map((items) => (
-                    <div key={items.id} className='flex justify-between items-center py-6 border-b'>
-                        <p className=' max-w-50'>{items.desc}</p>
+                    <div key={items.id} className='flex flex-col md:flex-row justify-between items-start md:items-center gap-2 md:gap-0 py-6 border-b'>
+                        <p className='max-w-full md:max-w-50'>{items.desc}</p>
                         <h3>{items.heading}</h3>
                         <MoveRight />
                     </div>

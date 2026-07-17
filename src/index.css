@@ -123,6 +123,15 @@ p {
     font-size: 34px;
     line-height: 48px;
   }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  .ellipse {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -134,6 +143,15 @@ p {
   h2 {
     font-size: 28px;
     line-height: 38px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .ellipse {
+    width: 50px;
+    height: 50px;
   }
 }
 

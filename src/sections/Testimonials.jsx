@@ -4,42 +4,77 @@ import CircleImage from '../components/common/CircleImage'
 
 const Testimonials = () => {
     return (
-        <div className='flex justify-around my-26 relative'>
-            <div className=' m-8 relative w-3/5 ' >
-                <div className='scale-50'>
-                    <CircleImage src={"images/person-1.png"} top={50} left={50} className="scale-50" />
-                </div>
-                <div className='scale-25 w-full '>
-                    <CircleImage src={"images/person-2.png"} top={650} left={-300} className="scale-50" />
-                </div>
-                <div className='scale-80'>
-                    <CircleImage src={"images/person-3.png"} top={220} left={150} className="scale-50" />
-                </div>
-                <div className='scale-50'>
-                    <CircleImage src={"images/person-4.png"} top={680} left={-100} className="scale-50" />
-                </div>
+        <div className='flex flex-col lg:flex-row justify-center items-center my-16 md:my-26 relative gap-8 lg:gap-12 overflow-hidden px-4 lg:px-0'>
+            
+            {/* Left side images container - desktop only */}
+            <div className='w-[250px] h-[420px] relative hidden lg:block flex-shrink-0' >
+                <CircleImage 
+                    src="images/person-1.png" 
+                    top="50px" 
+                    left="80px" 
+                    sizeClass="size-24" 
+                />
+                <CircleImage 
+                    src="images/person-2.png" 
+                    top="280px" 
+                    left="10px" 
+                    sizeClass="size-14" 
+                />
+                <CircleImage 
+                    src="images/person-3.png" 
+                    top="220px" 
+                    left="130px" 
+                    sizeClass="size-28" 
+                />
+                <CircleImage 
+                    src="images/person-4.png" 
+                    top="320px" 
+                    left="70px" 
+                    sizeClass="size-16" 
+                />
             </div>
-            <div className='flex items-center flex-col'>
+
+            {/* Testimonial text block */}
+            <div className='flex items-center flex-col z-10 w-full lg:w-auto flex-shrink-0'>
                 <h2 className='text-center py-8 z-10'>
-                    <Texthighlight text="What" color="green" height={85} width={120} left={-10} />{" "} our customer  <br /> says About us</h2>
+                    <Texthighlight text="What" color="green" height={85} width={120} left={-10} />{" "} 
+                    our customer  <br /> 
+                    <span className="relative inline-block">
+                        says About us
+                        <div className="absolute top-[45px] left-[85px] z-[-1] scale-40 md:scale-70 origin-top-left pointer-events-none hidden lg:block">
+                            <LinePattern />
+                        </div>
+                    </span>
+                </h2>
                 <TestimonialCard />
             </div>
-            <div className="absolute top-32 left-154 z-0 scale-50 origin-top-left ">
-                <LinePattern />
-            </div>
-            <div className=' m-8 relative w-3/5 ' >
-                <div className='scale-50'>
-                    <CircleImage src={"images/person-5.jpg"} top={50} left={50} className="scale-50" />
-                </div>
-                <div className='scale-25 w-full'>
-                    <CircleImage src={"images/person-6.jpg"} top={500} left={-300} className="scale-50" />
-                </div>
-                <div className='scale-35'>
-                    <CircleImage src={"images/person-7.jpg"} top={580} left={-100} className="scale-50" />
-                </div>
-                <div className='scale-80'>
-                    <CircleImage src={"images/person-8.jpg"} top={320} left={150} className="scale-50" />
-                </div>
+
+            {/* Right side images container - desktop only */}
+            <div className='w-[250px] h-[420px] relative hidden lg:block flex-shrink-0' >
+                <CircleImage 
+                    src="images/person-5.jpg" 
+                    top="50px" 
+                    left="10px" 
+                    sizeClass="size-24" 
+                />
+                <CircleImage 
+                    src="images/person-6.jpg" 
+                    top="280px" 
+                    left="150px" 
+                    sizeClass="size-14" 
+                />
+                <CircleImage 
+                    src="images/person-7.jpg" 
+                    top="220px" 
+                    left="-20px" 
+                    sizeClass="size-28" 
+                />
+                <CircleImage 
+                    src="images/person-8.jpg" 
+                    top="320px" 
+                    left="70px" 
+                    sizeClass="size-16" 
+                />
             </div>
         </div>
     )

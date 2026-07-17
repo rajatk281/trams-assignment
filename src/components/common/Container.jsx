@@ -61,7 +61,7 @@ const Images = [
 
 const Container = () => {
   return (
-    <div className="relative w-full h-[400px] mt-8">
+    <div className="relative w-full h-[200px] md:h-[300px] lg:h-[400px] mt-8 max-sm:-top-15">
         {
           Images.map((item)=>(
             <CircleImage key={item.id} top={item.top} left={item.left} src={item.src} z={item.z}/>

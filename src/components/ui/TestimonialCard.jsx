@@ -2,7 +2,7 @@ import React from 'react'
 
 const TestimonialCard = () => {
   return (
-    <div className='relative bg-green-50 px-16 py-8 mx-4 rounded-4xl text-center w-xl tracking-tight'>
+    <div className='relative bg-green-50 px-8 py-12 md:px-16 md:py-8 mx-4 rounded-4xl text-center w-auto max-w-xl md:w-xl tracking-tight'>
 
       <svg
         className="absolute top-6 left-6"
