@@ -1,5 +1,5 @@
 import FooterColumn from "../ui/FooterColumn"
-export const footerLinks = [
+const footerLinks = [
     {
         title: "Company",
         links: [

@@ -1,5 +1,4 @@
-import CircleImage from "../components/common/CircleImage"
-import { BlurCircle, LinePattern, Texthighlight } from "../components/common/DecorativeShape"
+import { LinePattern, Texthighlight } from "../components/common/DecorativeShape"
 
 const Newsletter = () => {
     return (

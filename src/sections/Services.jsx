@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ServiceRow from '../components/ui/ServiceRow'
 import { LinePattern, Texthighlight } from '../components/common/DecorativeShape'
 
