@@ -63,3 +63,21 @@ export const Wave = () => {
 
     )
 }
+
+export const BlurCircle =()=>{
+    return (
+        <div
+  className=" border
+    absolute
+    top-0
+    left-0
+    w-[166px]
+    h-[166px]
+    rounded-full
+    bg-[#FF9A9A]
+    blur-[100px]
+    opacity-50
+  "
+/>
+    )
+}
